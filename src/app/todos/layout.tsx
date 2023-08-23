@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-function TodosLayout({ children }: { children: React.ReactNode }) {
+function ReposLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="bg-gray-800 text-white p-6 rounded-md shadow-md">
       <Link href="/" className="p-2 bg-blue-500 hover:bg-blue-600 rounded-md">
@@ -10,4 +10,4 @@ function TodosLayout({ children }: { children: React.ReactNode }) {
     </div>
   )
 }
-export default TodosLayout
+export default ReposLayout
